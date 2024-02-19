@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/mydb
+#    username: postgres
+#    password: '123Abc!@#'
+#    driverClassName: org.postgresql.Driver
+#  main:
+#    web-application-type: none
+#    web-environment: false
+
+
+spring:
+  datasource:
+    postgresql:
+      url: jdbc:postgresql://localhost:5432/mydb
+      username: postgres
+      password: '123Abc!@#'
+      driverClassName: org.postgresql.Driver
