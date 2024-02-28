@@ -11,9 +11,6 @@ public class EventsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EventsApplication.class, args);
-//		new SpringApplicationBuilder(EventsApplication.class)
-//				.web(WebApplicationType.NONE) // .REACTIVE, .SERVLET
-//				.run(args);
 	}
 
 }
